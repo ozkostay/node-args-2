@@ -5,7 +5,9 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-const num = 5;
+// const num = 5;
+const num = Math.floor( Math.random() * 101);
+console.log('Для отладки - Загадано: ', num);
 let answerText = 'Введите число от 0 до 100 \n';
 
 function checkNumber() {
